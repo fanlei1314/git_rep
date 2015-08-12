@@ -1,5 +1,5 @@
 签约返回：
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="GBK"?>
 	<Tran>
 		<Header>
 			<txcode><![CDATA[AL0001]]></txcode>
@@ -20,7 +20,7 @@
 	
 	
 支付返回:	
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="GBK"?>
 	<Tran>
 		<Header>
 			<txcode><![CDATA[AL0002]]></txcode>
@@ -48,7 +48,7 @@
 
 
 
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="GBK"?>
 	<Tran>
 		<Header>
 			<txcode><![CDATA[AL0004]]></txcode>
@@ -74,7 +74,7 @@
 	
 	
 	查询：（支付）
-	<?xml version="1.0" encoding="UTF-8"?>
+	<?xml version="1.0" encoding="GBK"?>
 		<Tran>
 			<Header>
 				<txcode><![CDATA[AL0003]]></txcode>
@@ -106,4 +106,4 @@
 	查询：退款:
 	请求:
 	
-	<?xml version="1.0" encoding="UTF-8"?><queryReq><Header><txcode>AL0003</txcode><txseq>10662015080600000011</txseq><txdate>20150806</txdate><txtime>144522</txtime><tminf></tminf><txsign>CHMEQe7QBzWqH4WunV+MaqBelFSYRUcTy51kI+sMNVKJ6jIuKrHO6CKzms2h7WQ/IYipOscvUrLvp6TNYSmmjkQsCsh7mMzgpu6wu/pciQA2eg7ddyjLBne8GaTCFPuGdwWkaScfnFTlOdjfPffO3brgKKERfQDSOPVFqTbwnfU=</txsign></Header><Body><request><shop_no>105584073990183</shop_no><ori_date>20150806</ori_date><func_cod>1</func_cod><order_no>10662015080600000011</order_no><ori_txseq>10662015080600001016</ori_txseq></request></Body></queryReq>
+	<?xml version="1.0" encoding="GBK"?><queryReq><Header><txcode>AL0003</txcode><txseq>10662015080600000011</txseq><txdate>20150806</txdate><txtime>144522</txtime><tminf></tminf><txsign>CHMEQe7QBzWqH4WunV+MaqBelFSYRUcTy51kI+sMNVKJ6jIuKrHO6CKzms2h7WQ/IYipOscvUrLvp6TNYSmmjkQsCsh7mMzgpu6wu/pciQA2eg7ddyjLBne8GaTCFPuGdwWkaScfnFTlOdjfPffO3brgKKERfQDSOPVFqTbwnfU=</txsign></Header><Body><request><shop_no>105584073990183</shop_no><ori_date>20150806</ori_date><func_cod>1</func_cod><order_no>10662015080600000011</order_no><ori_txseq>10662015080600001016</ori_txseq></request></Body></queryReq>
