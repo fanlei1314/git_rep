@@ -5,7 +5,7 @@
 			<txcode><![CDATA[AL0001]]></txcode>
 			<txseq><![CDATA[10022015080300001005]]></txseq>
 			<txdate><![CDATA[20150804]]></txdate>
-			<tminf><![CDATA[10.2.12.112]]></tminf>
+			<tminf><![CDATA[10.2.12.113]]></tminf>
 			<tran_response>
 				<status><![CDATA[SUCCESS]]></status>
 				</tran_response>
