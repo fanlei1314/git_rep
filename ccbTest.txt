@@ -1,0 +1,109 @@
+签约返回：
+<?xml version="1.0" encoding="UTF-8"?>
+	<Tran>
+		<Header>
+			<txcode><![CDATA[AL0001]]></txcode>
+			<txseq><![CDATA[10022015080300001005]]></txseq>
+			<txdate><![CDATA[20150804]]></txdate>
+			<tminf><![CDATA[10.2.12.112]]></tminf>
+			<tran_response>
+				<status><![CDATA[SUCCESS]]></status>
+				</tran_response>
+				<txsign>1Ps5DYPedIXJ9nCy3L0XrI3thM28G1SeQCMma4h2ZMvgzMDsK0mc64W8WsMnmWFGr+akj7F9IycE5dwhuXbOB1w9NOy+kCdQ7gD4FFAVJO7nYx9fKq8n9RuFIW9lNg0drw0v7LvppM3VHj4WEGgl6NUR3+hCSa/LFBg+LCsI9qE=</txsign>
+			</Header>
+			<Body>
+				<response>
+					<valid_flag><![CDATA[1]]></valid_flag>
+				</response>
+			</Body>
+	</Tran>
+	
+	
+支付返回:	
+<?xml version="1.0" encoding="UTF-8"?>
+	<Tran>
+		<Header>
+			<txcode><![CDATA[AL0002]]></txcode>
+			<txseq><![CDATA[10662015080400001006]]></txseq>
+			<txdate><![CDATA[20150804]]></txdate>
+			<tran_response>
+				<status><![CDATA[SUCCESS]]></status>
+			</tran_response>
+			<txsign>WH0LPh1Ib3Fn76LWsCcCSAek/5hWo4ItbVA5aoyaR1zYnILehfZwmjchASXRcV718Yl+cnw0A/R9IJk0+on7ovQJW0D/q+ZS/NIBQa06CUlcvNs7qEOBfivZeh0KauYk0PuE0Wc6xrv85c9FxbY/+RuWp0zIaABVZr8fMfvInlI=</txsign>
+		</Header>
+		<Body>
+			<response>
+				<tx_dt><![CDATA[20150803]]></tx_dt>
+				<bank_flow><![CDATA[4420008000F5A0B6SRS]]></bank_flow>
+				<curr_cod><![CDATA[01]]></curr_cod>
+				<amount>21.00</amount>
+				<shop_no><![CDATA[105584073990183]]></shop_no>
+				<order_no><![CDATA[10662015080400001006]]></order_no>
+			</response>
+		</Body>
+	</Tran>
+
+
+
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+	<Tran>
+		<Header>
+			<txcode><![CDATA[AL0004]]></txcode>
+			<txseq><![CDATA[10662015080500000007]]></txseq>
+			<txdate><![CDATA[20150805]]></txdate>
+			<tran_response>
+				<status><![CDATA[SUCCESS]]></status>
+			</tran_response>
+			<txsign>ivDBaw9PsAlN8zAousHiwip+YBlYDxA85Fmt2+o+IHVTegA5Oj3XGEhhDfCZpqhTtaHVDJJIi+Ny+LhTuieVSFGJk4mT/iPwJc03p8icUb2oQN9l/NLKKioo1qXlgmSbHuWNRRLbhePbXYZGsiM5bu6ujnYBY5JI+zyBE8izgyI=</txsign>
+		</Header>
+		<Body>
+			<response>
+				<tx_dt><![CDATA[20150805]]></tx_dt>
+				<bank_flow><![CDATA[4420008000F5ABLBWR4]]></bank_flow>
+				<curr_cod><![CDATA[01]]></curr_cod>
+				<amount>1.00</amount>
+				<shop_no><![CDATA[105584073990183]]></shop_no>
+				<order_no><![CDATA[10662015080500001003]]></order_no>
+			</response>
+		</Body>
+	</Tran>
+	
+	
+	
+	查询：（支付）
+	<?xml version="1.0" encoding="UTF-8"?>
+		<Tran>
+			<Header>
+				<txcode><![CDATA[AL0003]]></txcode>
+				<txseq><![CDATA[10662015080500000001]]></txseq>
+				<txdate><![CDATA[20150805]]></txdate>
+				<tran_response>
+					<status><![CDATA[SUCCESS]]></status>
+				</tran_response>
+				<txsign>y1AScHB52SeF5f9trzj/lhZG735KhncfYCbImK2LDS4bhtfSylLYDuqillpPmDDKjd1wJ5GfCByl47hTCBXw7vhgH77ZQVst1kLgDr528kXayggejFlKOsLkp/SWcznW8/Iw0/FApF2vVJK4IzJR+5LDx/qtwygs1zvWepDq71c=</txsign>
+			</Header>
+			<Body>
+				<response>
+					<shop_no>
+					<![CDATA[105584073990183]]></shop_no>
+					<order_no><![CDATA[10662015080500000001]]></order_no>
+					<rec_counts><![CDATA[1]]></rec_counts>
+					<record p_type="G">
+						<transtatus><![CDATA[1]]></transtatus>
+						<back_trad_date><![CDATA[20150805]]></back_trad_date>
+						<curr_cod><![CDATA[01]]></curr_cod>
+						<amount><![CDATA[1.0]]></amount>
+						<ori_txseq><![CDATA[10662015080500000001]]></ori_txseq>
+					</record>
+				</response>
+			</Body>
+	</Tran>
+	
+	
+	查询：退款:
+	请求:
+	
+	<?xml version="1.0" encoding="UTF-8"?><queryReq><Header><txcode>AL0003</txcode><txseq>10662015080600000011</txseq><txdate>20150806</txdate><txtime>144522</txtime><tminf></tminf><txsign>CHMEQe7QBzWqH4WunV+MaqBelFSYRUcTy51kI+sMNVKJ6jIuKrHO6CKzms2h7WQ/IYipOscvUrLvp6TNYSmmjkQsCsh7mMzgpu6wu/pciQA2eg7ddyjLBne8GaTCFPuGdwWkaScfnFTlOdjfPffO3brgKKERfQDSOPVFqTbwnfU=</txsign></Header><Body><request><shop_no>105584073990183</shop_no><ori_date>20150806</ori_date><func_cod>1</func_cod><order_no>10662015080600000011</order_no><ori_txseq>10662015080600001016</ori_txseq></request></Body></queryReq>
