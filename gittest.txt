@@ -2,4 +2,3 @@ git test
 
 git change
 test stash
-test push and conflict
